@@ -13,3 +13,14 @@ const listaDeTeclas =  document.querySelectorAll('.tecla')
 
 // Chamando a referêcia 'listaDeTeclas' buscando o primeiro valor '[0]' e atribuindo '.onclick' e chamando a função 'tocaSomPom' para dar o play na musica.
 listaDeTeclas[0].onclick = tocaSomPom
+
+let contador = 0;
+
+//enquanto
+while (contador < listaDeTeclas.length) {
+    listaDeTeclas[contador].onclick = tocaSomPom
+
+    contador = contador + 1;
+
+    console.log(contador)
+}
