@@ -34,8 +34,17 @@ for (let contador=0; contador < listaDeTeclas.length; contador++) {
     const idAudio = `#som_${instrumento}`;
     //console.log(idAudio);
 
-    tecla.onclick = function(){
+    tecla.onclick = function() {
         tocaSom(idAudio);
+    }
+
+    /*
+    Usando a função (.add) para adicionar uma classe.
+    tecla.classList.add('ativa')
+    Aqui estamos acessando a lista de classe do ('tecla') e através da função (.add) estamos adicionando a classe ('ativa'). 
+    */
+    tecla.onkeydown = function() {
+        tecla.classList.add('ativa')
     }
 
     //console.log(contador);
