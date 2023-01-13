@@ -39,13 +39,37 @@ for (let contador=0; contador < listaDeTeclas.length; contador++) {
     }
 
     /*
+        Adicionado função que verifica a tecla Enter e Space caso seja precionada.
+    */
+    tecla.onkeydown = function(evento) {
+        if (evento.code === 'Enter' || evento.code === 'Space') {
+            tecla.classList.add('ativa')
+        }
+    }
+    tecla.onkeyup = function() {
+        tecla.classList.remove('ativa')
+    }
+    /*
     Usando a função (.add) para adicionar uma classe.
     tecla.classList.add('ativa')
     Aqui estamos acessando a lista de classe do ('tecla') e através da função (.add) estamos adicionando a classe ('ativa'). 
     */
-    tecla.onkeydown = function() {
+   // onkeydown -> é uma função que verifica quando a tecla estiver em baixo ou melhor precionada.
+    /*
+        tecla.onkeydown = function() {
         tecla.classList.add('ativa')
-    }
+        }
+    */
+    /*
+    Usando a função (.remove) para remover uma classe.
+    tecla.classList.remove('ativa')
+    Aqui estamos acessando a lista de classe do ('tecla') e através da função (.remove) estamos removendo a classe ('ativa'). 
+    */
+    // onkeyup -> é uma função que verifica quando uma tecla estiver em cima ou melhor não precionada.
+    /*    tecla.onkeyup = function() {
+        tecla.classList.remove('ativa')
+        }
+    */ 
 
     //console.log(contador);
 }
