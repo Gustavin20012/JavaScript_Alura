@@ -15,10 +15,20 @@ function tocaSomPom () {
 // Referência para a função 'document.querySelectorAll('.tecla')'.
 // const listaDeTeclas =  document.querySelectorAll('.tecla')
 
-function tocaSom(idElementoAudio) {
-    document.querySelector(idElementoAudio).play();
-}
+function tocaSom(seletorAudio) {
+    // Quantando a busca do 'document.querySelector(seletorAudio)' em uma constante chamada 'elemento'.
+    const elemento = document.querySelector(seletorAudio);
+    if (elemento === null) {
+        //alert('Elemeto não encontrado')
+        console.log ('Elemento não encontrado')
+    }
 
+    if (elemento != null) {
+        if (elemento.locaName === 'audio') {
+            elemento.play();
+        }
+    } 
+}
 // Referências
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
