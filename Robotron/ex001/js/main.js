@@ -22,7 +22,12 @@ const somar =  document.querySelector("#somar")
 const braco = document.querySelector("#braco")
 
 const controle = document.querySelectorAll(".controle-ajuste")
-console.log (controle)
+
+controle.forEach( () => {
+    elemento.addEventListener("click", () => {
+        console.log()
+    })
+})
 
 // Funções que mostra a subtrações do elemento braco ao ser clicado
 somar.addEventListener("click", () => {manipulaDados("somar")})
