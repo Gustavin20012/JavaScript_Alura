@@ -22,17 +22,17 @@ const somar =  document.querySelector("#somar")
 const braco = document.querySelector("#braco")
 
 // (const controle) faz a busca pela class ".controle-ajuste" e amarzena em "controle"
-const controle = document.querySelectorAll(".controle-ajuste")
+const controle = document.querySelectorAll("[data-controle]")
 
 controle.forEach( (elemento) => {
     elemento.addEventListener("click", (evento) => {
-        manipulaDados(evento.target.textContent, evento.target.parentNode)
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode)
     })
 })
 
 // Funções que mostra a subtrações do elemento braco ao ser clicado
 function manipulaDados (operacao, controle) {
-    const peca = controle.querySelector(".controle-contador")
+    const peca = controle.querySelector("[data-contador]")
 
     if (operacao === "-") {
         peca.value = parseInt(peca.value) - 1
