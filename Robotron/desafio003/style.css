@@ -84,3 +84,11 @@
   [cor="preto"] {
     color: black;
   }
+
+.oculto {
+    display: none;
+ }
+
+.revelado {
+    display: block;
+}
