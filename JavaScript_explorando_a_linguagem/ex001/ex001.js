@@ -1,3 +1,5 @@
+console.log("Hello, Word!");
+
 console.log("Meu Primeiro progrma: trabalhando com variáveis");
 
 const idade = 26;
