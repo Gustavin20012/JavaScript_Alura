@@ -26,7 +26,6 @@ for(let x = 0; 10 >= x; x++){
     console.log(x);
 }
 
-const idade = 29;
 const primeiroNome = "Gustavo";
 const sobrenome = "Lima";
 
@@ -41,3 +40,6 @@ contador = contador +1
 
 const nomeCompleto = primeiroNome + sobrenome;
 console.log(nomeCompleto);
+
+let idade; //declaração de variavel
+idade = 26; //atribuindo valor
