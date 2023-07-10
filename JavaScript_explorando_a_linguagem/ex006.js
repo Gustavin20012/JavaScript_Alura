@@ -17,3 +17,7 @@ listaDeDestino.push(x, y);
 
 console.log("Destinos possiveis:");
 console.log(listaDeDestino);
+
+//Remover elementos de uma lista
+listaDeDestino.splice(1,1);
+console.log(listaDeDestino);
