@@ -19,11 +19,13 @@ const podeComprar = idadeComprador >= 18 || estaAcompanhada == true;
 
 //Aqui criamos uma variavel para contador que vai contar item por item na listDeDestino
 let contador = 0;
-while(contador < tamanhoDaLista){
+let destinoExite = false;
+while(contador < 3){
+    
     if (listaDeDestino[contador] == destino) {
-        console.log("Destino existe");
-    } else {
-        console.log("Destino não existe");
-    }
+        destinoExite = true;
+        break;
+    } 
     contador++;
 }
+console.log("Destino existe: ", destinoExite);
