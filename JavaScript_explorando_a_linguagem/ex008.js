@@ -24,8 +24,21 @@ while(contador < 3){
     
     if (listaDeDestino[contador] == destino) {
         destinoExite = true;
-        break;
     } 
     contador++;
 }
 console.log("Destino existe: ", destinoExite);
+
+if(podeComprar && destinoExite){
+    console.log("Boa Viagem");
+}else{
+    console.log("Desculpa tivemos um erro!");
+}
+
+for(let cont = 0 ;cont <3; cont++){
+    
+    if (listaDeDestino[contador] == destino) {
+        destinoExite = true;
+        break;
+    } 
+}
