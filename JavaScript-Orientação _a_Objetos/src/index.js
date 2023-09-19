@@ -1,4 +1,4 @@
-import { Personagem } from "./modules/personagem"
+import { Personagem } from "./modules/personagem.js"
 
 /* const personagemPedrinho = {
      nome: 'Pedrinho',
