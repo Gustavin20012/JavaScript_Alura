@@ -22,10 +22,7 @@ const personagemAna = {
     vida: 8,
     mana: 10, 
 }
-
-
-
-
+ 
 const personagemPedrinho = new Personagem()
 personagemPedrinho.nome = 'Pedrinho'
 personagemPedrinho.mana = 12
