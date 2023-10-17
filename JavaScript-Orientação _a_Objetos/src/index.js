@@ -1,22 +1,36 @@
 import { Personagem } from "./modules/personagem.js"
 
-/* const personagemPedrinho = {
+const personagemPedrinho = new Personagem('Pedrinho', 5, 'Mago');
+const personagemJose = new Personagem('Jose', 3, 'Arqueiro');
+
+console.log(Personagem);
+
+
+
+
+
+
+
+
+/*
+Primeira linha de codigo 
+     const personagemPedrinho = {
      nome: 'Pedrinho',
      vida: 7,
      mana: 12,
      level: 5,
      tipo: 'Mago',
 }
-*/ 
+ 
 
-/* const personagemJose = {
+    const personagemJose = {
     nome: 'Jose',
     vida: 7,
     mana: 6,
     level: 3,
     tipo: 'Arqueiro',
  }
- */
+
 
 const personagemAna = {
     nome: 'Ana',
@@ -38,7 +52,6 @@ personagemJose.level = 3
 
 console.log('Insignia de ' +personagemPedrinho.nome + ':' +personagemPedrinho.obterInsignia())
 console.log('Insignia de ' +personagemJose.nome + ':' +personagemJose.obterInsignia())
-
-
+*/
 
 
