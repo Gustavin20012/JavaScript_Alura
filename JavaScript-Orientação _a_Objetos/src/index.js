@@ -8,6 +8,8 @@ const personagens = [personagemPedrinho, personagemJose]
 
 new PersonagemView(personagens).render()
 
+console.log(personagemJose.vida)
+
 /*
 Primeira linha de codigo 
      const personagemPedrinho = {
