@@ -1,21 +1,28 @@
+// Impotações de diversas classes de personagens 
 import { Personagem } from "./modules/personagem.js"
 import { PersonagemView } from "./components/personagem-view.js";
 import { mago } from "./modules/mago.js";
 import { arqueiro } from "./modules/arqueiro.js";
 import { ArqueiroMago } from "./modules/arqueiro-mago.js";
 
+// Criação dos personagens Magos
 const magoAntonio = new mago ('Antonio', 4, 'fogo', 4, 3)
 const magaJulia = new mago ('Julia', 8, 'gelo', 7, 10)
+
+// Criação dos personagens Arqueiros
 const arqueiroBruno = new arqueiro ('Bruno', 8)
 const arqueiroPedro = new arqueiro ('Pedro', 3)
+
+// Criação dos personagens ArqueirosMagos um tipo de pessonagem que tem as habilidades de um arqueiro e mago juntas
 const arqueiromagoChico = new ArqueiroMago ('Chico', 7, 10, 'ar', 4, 8)
 
+// Array dos personagens, ultilizado para armazenar os novos personagens
 const personagens = [magoAntonio, magaJulia, arqueiroBruno, arqueiroPedro, arqueiromagoChico]
 
+
+// (PersonagemView) é ultilizado para exibir os personagens que foram armazenado na variavel (personagens)
 new PersonagemView(personagens).render()
 
-
-console.log(new mago('gelo', 7, 9))
 
 /*
 Primeira linha de codigo 
