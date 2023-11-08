@@ -6,7 +6,7 @@ export class mago  extends Personagem {
     elementoMagico
     levelMagico
     inteligencia
-    tipo = 'Mago'
+    static tipo = 'Mago'
 
 /*  (constructor) é um metodo que é criado e iniciar um objeto
     Ele recebe os valores da calsse através dos ([Argumentos]):

@@ -54,12 +54,12 @@ const personagemPedrinho = new Personagem()
 personagemPedrinho.nome = 'Pedrinho'
 personagemPedrinho.mana = 12
 personagemPedrinho.vida = 7
-personagemPedrinho.tipo = 'Mago'
+personagemPedrinho.static tipo = 'Mago'
 personagemPedrinho.level = 5
 
 const personagemJose = new Personagem()
 personagemJose.nome = 'Jose'
-personagemJose.tipo = 'Arqueiro'
+personagemJose.static tipo = 'Arqueiro'
 personagemJose.level = 3
 
 console.log('Insignia de ' +personagemPedrinho.nome + ':' +personagemPedrinho.obterInsignia())
