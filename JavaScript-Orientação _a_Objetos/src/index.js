@@ -23,6 +23,9 @@ const personagens = [magoAntonio, magaJulia, arqueiroBruno, arqueiroPedro, arque
 // (PersonagemView) é ultilizado para exibir os personagens que foram armazenado na variavel (personagens)
 new PersonagemView(personagens).render()
 
+// Verificação de personagens vencedores
+console.log(Personagem.verificarVencedor(arqueiroBruno, magoAntonio))
+
 
 /*
 Primeira linha de codigo 
