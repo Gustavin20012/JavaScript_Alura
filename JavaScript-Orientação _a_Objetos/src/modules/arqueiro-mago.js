@@ -9,10 +9,10 @@ export class ArqueiroMago extends Personagem {
 
     static descricao = 'Minha aljava nunca está cheia'
 
-    constructor(nome, level, destreza, elementoMagico, levelMagico, Inteligencia) {
-        super(nome, level)
-        this.ladoArqueiro = new arqueiro(nome, level, destreza)
-        this.ladoMago = new mago(nome, level, elementoMagico, levelMagico, Inteligencia)
+    constructor(nome, destreza, elementoMagico, levelMagico, Inteligencia) {
+        super(nome)
+        this.ladoArqueiro = new arqueiro(nome, destreza)
+        this.ladoMago = new mago(nome, elementoMagico, levelMagico, Inteligencia)
     }
 
     obterInsignia(){

@@ -6,8 +6,8 @@ export class arqueiro extends Personagem {
 
     static descricao = 'Fiquem firmes como a corda do arco!'
 
-    constructor (nome, level, destreza) {
-        super(nome, level)
+    constructor (nome, destreza) {
+        super(nome)
         this. destreza = destreza
     }
 

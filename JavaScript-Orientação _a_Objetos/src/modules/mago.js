@@ -14,9 +14,9 @@ export class mago  extends Personagem {
     Ele recebe os valores da calsse através dos ([Argumentos]):
     constructor (nome, level, elementoMagico, levelMagico, inteligencia) -> argumentos são os que estão dentro de "(argumentos)"
 */
-    constructor (nome, level, elementoMagico, levelMagico, inteligencia) {
+    constructor (nome, elementoMagico, levelMagico, inteligencia) {
 // o (super) é ultilizado para pegar alguns atributos da classe (Personagem)
-        super(nome, level)
+        super(nome)
 //  (this) é complicado de explicar
         this.elementoMagico = elementoMagico
         this.levelMagico = levelMagico
