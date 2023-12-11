@@ -9,6 +9,7 @@ import { Guerreiro } from "./modules/guerreiro.js";
 // Criação dos personagens Magos
 const magoAntonio = new mago ('Antonio', 4, 'fogo', 4, 3)
 const magaJulia = new mago ('Julia', 8, 'gelo', 7, 10)
+const magaIsa = new mago ('Isabella', 10, 'gelo', 10, 10) 
 
 // Criação dos personagens Arqueiros
 const arqueiroBruno = new arqueiro ('Bruno', 8)
@@ -21,7 +22,7 @@ const arqueiromagoChico = new ArqueiroMago ('Chico', 7, 10, 'ar', 4, 8)
 const guerreiroJorge = new Guerreiro('Jorge', 8);
 
 // Array dos personagens, ultilizado para armazenar os novos personagens
-const personagens = [magoAntonio, magaJulia, arqueiroBruno, arqueiroPedro, arqueiromagoChico, guerreiroJorge]
+const personagens = [magaIsa, arqueiroBruno, arqueiroPedro, arqueiromagoChico, guerreiroJorge]
 
 
 // (PersonagemView) é ultilizado para exibir os personagens que foram armazenado na variavel (personagens)
