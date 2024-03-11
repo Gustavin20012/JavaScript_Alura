@@ -8,7 +8,7 @@ export class mago  extends Personagem {
     inteligencia
     static tipo = 'Mago'
 
-    static descricao = 'A MAIS LINDA DO MUNDO !!!!'
+    static descricao = 'amgo !!!!'
 
 /*  (constructor) é um metodo que é criado e iniciar um objeto
     Ele recebe os valores da calsse através dos ([Argumentos]):
