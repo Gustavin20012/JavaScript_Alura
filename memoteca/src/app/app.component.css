@@ -1,5 +1,5 @@
 main {
-    background:  url(/memoteca/Imagens_do_curso/background-completo.png);
-    background-size: cover;
-    min-height: 60vh;
+  background: url(/assets/imagens/background-completo.png);
+  background-size: cover;
+  min-height: 60vh;
 }
